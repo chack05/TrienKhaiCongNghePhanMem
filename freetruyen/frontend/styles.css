@@ -1,0 +1,75 @@
+
+/* CSS cho giao diện sáng */
+body {
+    background-color: #f2f2f2;
+}
+
+/* CSS cho giao diện tối */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* CSS cho footer */
+.footer {
+    background-color: #ccc;
+    padding: 20px;
+    color: #333;
+}
+
+/* CSS cho footer chế độ tối */
+.dark-mode .footer {
+    background-color: #555;
+    color: #fff;
+}
+
+/* CSS cho nút chuyển đổi */
+.toggle-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.toggle-button img {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand .logo-icon {
+    width: 40px;
+    /* Điều chỉnh kích thước ảnh logo tại đây */
+    height: auto;
+    /* Tự động tính chiều cao dựa trên tỷ lệ của ảnh */
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+/* CSS cho header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .navbar-brand {
+    margin-right: auto;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -120px;
+  }
+  
